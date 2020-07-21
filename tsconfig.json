@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es5",
+      "es2015",
+      "es2017",
+      "dom",
+      "scripthost"
+    ],
+    "removeComments": true,
+    "noEmitHelpers": false,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

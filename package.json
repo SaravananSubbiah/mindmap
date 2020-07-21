@@ -1,0 +1,50 @@
+{
+  "name": "mind-map",
+  "version": "0.2.1",
+  "description": "mind-map for typescript",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "lint": "npm run tslint \"src/**/*.ts\"",
+    "tslint": "tslint",
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "lodash": "4.17.4",
+    "rxjs": "^6.0.0",
+    "tslint": "4.5.1",
+    "typescript": "2.2.1"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "standard-version": "4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfsovereign/jsmind.git"
+  },
+  "keywords": [
+    "mind-map",
+    "jsmind"
+  ],
+  "author": "wfsovereign",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wfsovereign/jsmind/issues"
+  },
+  "homepage": "https://github.com/wfsovereign/jsmind#readme",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
